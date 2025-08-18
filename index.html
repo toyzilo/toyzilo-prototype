@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
-<title>ToyZilo • Rewards Prototype</title>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>ToyZilo • Prototype - Structured</title>
 <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
@@ -11,24 +11,22 @@
   <div class="phone-frame">
     <section id="splash" class="screen active">
       <div class="center">
-        <img src="assets/logo.png" alt="ToyZilo logo" class="logo"/>
+        <img src="assets/logo.png" class="logo" alt="ToyZilo"/>
         <div class="tagline">Raising Curiosity, Creativity & Confidence</div>
         <div class="tap-hint bounce">Tap to Start ▶</div>
       </div>
       <div id="floaters"></div>
     </section>
-    <section id="home" class="screen">
+    <section id="main" class="screen">
+      <header class="top"><img src="assets/logo.png" class="brand-mini"/><div class="title">Play & Learn</div></header>
+      <div class="grid main-grid" id="mainGrid"></div>
+    </section>
+    <section id="sub" class="screen">
       <header class="top">
-        <img src="assets/logo.png" alt="ToyZilo logo" class="brand-mini"/>
-        <div class="title">Pick a Topic</div>
-        <button id="rewardsBtn" class="btn pill">🏅 Rewards</button>
+        <button id="backMain" class="btn">←</button>
+        <div id="subTitle" class="title">Category</div>
       </header>
-      <div class="stats-bar">
-        <div>⭐ <span id="coinsBank">0</span></div>
-        <div>🔥 Streak: <span id="streakCount">0</span></div>
-        <div>🎯 Level: <span id="levelNo">1</span></div>
-      </div>
-      <div id="topic-grid" class="grid"></div>
+      <div id="subGrid" class="grid"></div>
     </section>
     <section id="quiz" class="screen">
       <header class="quiz-top">
@@ -50,42 +48,9 @@
       <div class="center">
         <h1 id="scoreline">Great!</h1>
         <div id="earned" class="earned"></div>
-        <div id="badgeUnlocks" class="badges"></div>
-        <button id="again" class="btn primary">Back to Topics</button>
+        <button id="again" class="btn primary">Back to Categories</button>
       </div>
     </section>
-    <section id="rewards" class="screen">
-      <header class="top">
-        <button id="reBack" class="btn">←</button>
-        <div class="title">Rewards Hub</div>
-      </header>
-      <div class="rewards-wrap">
-        <div class="card">
-          <h3>Daily Check-in</h3>
-          <p>Come back each day to grow your streak and earn coins!</p>
-          <div class="streak-line">
-            <div>🔥 <span id="streakStrong">0</span>-day</div>
-            <div class="ring"><div id="streakRing"></div></div>
-          </div>
-          <button id="claimDaily" class="btn primary">Claim Today ⭐ +10</button>
-          <div id="weeklyChest" class="chest disabled">🎁 Weekly Chest (7-day) — Locked</div>
-        </div>
-        <div class="card">
-          <h3>Badges</h3>
-          <div id="badgeGrid" class="badge-grid"></div>
-        </div>
-        <div class="card">
-          <h3>Your Stats</h3>
-          <ul class="stats">
-            <li>Total Correct: <span id="statCorrect">0</span></li>
-            <li>Quizzes Finished: <span id="statFinished">0</span></li>
-            <li>Unique Topics Completed: <span id="statTopics">0</span></li>
-            <li>Coins Bank: ⭐ <span id="statCoins">0</span></li>
-          </ul>
-        </div>
-      </div>
-    </section>
-    <div id="toast" class="toast"></div>
   </div>
 </div>
 <script src="script.js"></script>
