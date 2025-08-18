@@ -1,0 +1,2100 @@
+[
+  {
+    "topic": "Animals",
+    "questions": [
+      {
+        "q": "Which one can fly?",
+        "opts": [
+          "Dog",
+          "Cat",
+          "Bird",
+          "Cow"
+        ],
+        "a": 2
+      },
+      {
+        "q": "Which says 'meow'?",
+        "opts": [
+          "Cat",
+          "Duck",
+          "Horse",
+          "Sheep"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Which is the biggest?",
+        "opts": [
+          "Mouse",
+          "Elephant",
+          "Ant",
+          "Frog"
+        ],
+        "a": 1
+      },
+      {
+        "q": "Which one lives in water?",
+        "opts": [
+          "Lion",
+          "Shark",
+          "Tiger",
+          "Giraffe"
+        ],
+        "a": 1
+      },
+      {
+        "q": "Which hops?",
+        "opts": [
+          "Snake",
+          "Frog",
+          "Fish",
+          "Eagle"
+        ],
+        "a": 1
+      },
+      {
+        "q": "Which has a long neck?",
+        "opts": [
+          "Giraffe",
+          "Pig",
+          "Rabbit",
+          "Bear"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Which barks?",
+        "opts": [
+          "Cow",
+          "Dog",
+          "Goat",
+          "Hen"
+        ],
+        "a": 1
+      },
+      {
+        "q": "Which has stripes?",
+        "opts": [
+          "Zebra",
+          "Sheep",
+          "Pig",
+          "Goose"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Which animal lays eggs?",
+        "opts": [
+          "Cat",
+          "Dog",
+          "Chicken",
+          "Horse"
+        ],
+        "a": 2
+      },
+      {
+        "q": "Which is a pet?",
+        "opts": [
+          "Wolf",
+          "Dog",
+          "Tiger",
+          "Shark"
+        ],
+        "a": 1
+      }
+    ]
+  },
+  {
+    "topic": "Colors",
+    "questions": [
+      {
+        "q": "Mix red + yellow = ?",
+        "opts": [
+          "Green",
+          "Purple",
+          "Orange",
+          "Pink"
+        ],
+        "a": 2
+      },
+      {
+        "q": "The sky is mostly…",
+        "opts": [
+          "Blue",
+          "Brown",
+          "Black",
+          "Red"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Grass is…",
+        "opts": [
+          "Green",
+          "Orange",
+          "Gray",
+          "Pink"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Banana is…",
+        "opts": [
+          "Blue",
+          "Yellow",
+          "Purple",
+          "White"
+        ],
+        "a": 1
+      },
+      {
+        "q": "Strawberry is…",
+        "opts": [
+          "Red",
+          "Green",
+          "Black",
+          "Blue"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Snow is…",
+        "opts": [
+          "White",
+          "Yellow",
+          "Brown",
+          "Gray"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Coal is…",
+        "opts": [
+          "Black",
+          "Pink",
+          "Teal",
+          "Gold"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Sunflower petals are…",
+        "opts": [
+          "Cyan",
+          "Magenta",
+          "Yellow",
+          "Blue"
+        ],
+        "a": 2
+      },
+      {
+        "q": "Orange fruit is…",
+        "opts": [
+          "Orange",
+          "Blue",
+          "Green",
+          "Red"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Grapes can be…",
+        "opts": [
+          "Purple",
+          "Transparent",
+          "Neon",
+          "Invisible"
+        ],
+        "a": 0
+      }
+    ]
+  },
+  {
+    "topic": "Numbers",
+    "questions": [
+      {
+        "q": "What comes after 3?",
+        "opts": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "a": 2
+      },
+      {
+        "q": "How many legs does a cat have?",
+        "opts": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "a": 2
+      },
+      {
+        "q": "Which is bigger?",
+        "opts": [
+          "7",
+          "5"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Count apples: 🍎🍎🍎",
+        "opts": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "a": 1
+      },
+      {
+        "q": "What comes before 10?",
+        "opts": [
+          "8",
+          "9",
+          "11",
+          "7"
+        ],
+        "a": 1
+      },
+      {
+        "q": "2 + 2 = ?",
+        "opts": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "a": 1
+      },
+      {
+        "q": "5 - 1 = ?",
+        "opts": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "a": 1
+      },
+      {
+        "q": "Which is even?",
+        "opts": [
+          "3",
+          "5",
+          "8",
+          "9"
+        ],
+        "a": 2
+      },
+      {
+        "q": "10 is how many tens?",
+        "opts": [
+          "0",
+          "1",
+          "2",
+          "10"
+        ],
+        "a": 1
+      },
+      {
+        "q": "Which is smallest?",
+        "opts": [
+          "1",
+          "4",
+          "6",
+          "9"
+        ],
+        "a": 0
+      }
+    ]
+  },
+  {
+    "topic": "Fruits",
+    "questions": [
+      {
+        "q": "Which one is a fruit?",
+        "opts": [
+          "Carrot",
+          "Apple",
+          "Broccoli",
+          "Tomato Sauce"
+        ],
+        "a": 1
+      },
+      {
+        "q": "Yellow long fruit?",
+        "opts": [
+          "Banana",
+          "Grape",
+          "Pear",
+          "Plum"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Which has tiny seeds outside?",
+        "opts": [
+          "Strawberry",
+          "Orange",
+          "Kiwi",
+          "Peach"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Which is green inside?",
+        "opts": [
+          "Kiwi",
+          "Banana",
+          "Cherry",
+          "Blueberry"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Which is citrus?",
+        "opts": [
+          "Orange",
+          "Potato",
+          "Onion",
+          "Cucumber"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Purple small fruits bunch?",
+        "opts": [
+          "Grapes",
+          "Mango",
+          "Pineapple",
+          "Lemon"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Which is spiky on top?",
+        "opts": [
+          "Pineapple",
+          "Apple",
+          "Pear",
+          "Fig"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Which has a core?",
+        "opts": [
+          "Apple",
+          "Banana",
+          "Watermelon",
+          "Grape"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Big green outside, red inside?",
+        "opts": [
+          "Watermelon",
+          "Lime",
+          "Coconut",
+          "Papaya"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Which has a pit/stone?",
+        "opts": [
+          "Peach",
+          "Strawberry",
+          "Blueberry",
+          "Raspberry"
+        ],
+        "a": 0
+      }
+    ]
+  },
+  {
+    "topic": "Weather",
+    "questions": [
+      {
+        "q": "Use an umbrella when it’s…",
+        "opts": [
+          "Sunny",
+          "Snowy",
+          "Rainy",
+          "Windy"
+        ],
+        "a": 2
+      },
+      {
+        "q": "Wear a coat when it’s…",
+        "opts": [
+          "Hot",
+          "Cold",
+          "Warm",
+          "Sunny"
+        ],
+        "a": 1
+      },
+      {
+        "q": "White flakes falling are…",
+        "opts": [
+          "Rain",
+          "Snow",
+          "Fog",
+          "Hail"
+        ],
+        "a": 1
+      },
+      {
+        "q": "A rainbow comes after…",
+        "opts": [
+          "Storm",
+          "Wind",
+          "Rain + Sun",
+          "Night"
+        ],
+        "a": 2
+      },
+      {
+        "q": "We see lightning during…",
+        "opts": [
+          "Thunderstorm",
+          "Sunny day",
+          "Fog",
+          "Breeze"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Shades for…",
+        "opts": [
+          "Night",
+          "Rain",
+          "Sun",
+          "Snow"
+        ],
+        "a": 2
+      },
+      {
+        "q": "Clouds in the sky are…",
+        "opts": [
+          "Water droplets",
+          "Cotton",
+          "Smoke",
+          "Dust"
+        ],
+        "a": 0
+      },
+      {
+        "q": "A gentle wind is called…",
+        "opts": [
+          "Breeze",
+          "Hurricane",
+          "Tornado",
+          "Blizzard"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Very hot days are…",
+        "opts": [
+          "Freezing",
+          "Boiling",
+          "Cold",
+          "Warm"
+        ],
+        "a": 1
+      },
+      {
+        "q": "We measure temperature with…",
+        "opts": [
+          "Ruler",
+          "Scale",
+          "Thermometer",
+          "Clock"
+        ],
+        "a": 2
+      }
+    ]
+  },
+  {
+    "topic": "Transportation",
+    "questions": [
+      {
+        "q": "Which travels on rails?",
+        "opts": [
+          "Bus",
+          "Train",
+          "Car",
+          "Bike"
+        ],
+        "a": 1
+      },
+      {
+        "q": "Which can fly in the sky?",
+        "opts": [
+          "Boat",
+          "Plane",
+          "Car",
+          "Scooter"
+        ],
+        "a": 1
+      },
+      {
+        "q": "Which goes on water?",
+        "opts": [
+          "Boat",
+          "Truck",
+          "Taxi",
+          "Van"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Two wheels you pedal?",
+        "opts": [
+          "Bike",
+          "Bus",
+          "Plane",
+          "Subway"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Yellow car for hire?",
+        "opts": [
+          "Taxi",
+          "Ambulance",
+          "Fire truck",
+          "Police car"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Carries many to school?",
+        "opts": [
+          "Bus",
+          "Helicopter",
+          "Car",
+          "Boat"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Emergency with siren?",
+        "opts": [
+          "Ambulance",
+          "Bicycle",
+          "Tractor",
+          "Skateboard"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Carries goods?",
+        "opts": [
+          "Truck",
+          "Scooter",
+          "Skate",
+          "Sled"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Underwater transport?",
+        "opts": [
+          "Submarine",
+          "Helicopter",
+          "Glider",
+          "Jet"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Stops at stations underground?",
+        "opts": [
+          "Subway/Metro",
+          "Taxi",
+          "Bike",
+          "Ship"
+        ],
+        "a": 0
+      }
+    ]
+  },
+  {
+    "topic": "Body Parts",
+    "questions": [
+      {
+        "q": "We smell with our…",
+        "opts": [
+          "Eyes",
+          "Nose",
+          "Ears",
+          "Mouth"
+        ],
+        "a": 1
+      },
+      {
+        "q": "We see with our…",
+        "opts": [
+          "Eyes",
+          "Hands",
+          "Feet",
+          "Hair"
+        ],
+        "a": 0
+      },
+      {
+        "q": "We hear with our…",
+        "opts": [
+          "Ears",
+          "Nose",
+          "Tongue",
+          "Knees"
+        ],
+        "a": 0
+      },
+      {
+        "q": "We taste with our…",
+        "opts": [
+          "Tongue",
+          "Elbow",
+          "Neck",
+          "Thumb"
+        ],
+        "a": 0
+      },
+      {
+        "q": "We clap with our…",
+        "opts": [
+          "Knees",
+          "Hands",
+          "Eyes",
+          "Shoulders"
+        ],
+        "a": 1
+      },
+      {
+        "q": "We walk with our…",
+        "opts": [
+          "Feet",
+          "Eyelashes",
+          "Hair",
+          "Lips"
+        ],
+        "a": 0
+      },
+      {
+        "q": "We hold with our…",
+        "opts": [
+          "Hands",
+          "Ears",
+          "Nose",
+          "Chin"
+        ],
+        "a": 0
+      },
+      {
+        "q": "We chew with our…",
+        "opts": [
+          "Teeth",
+          "Fingers",
+          "Ears",
+          "Nails"
+        ],
+        "a": 0
+      },
+      {
+        "q": "We blink our…",
+        "opts": [
+          "Ears",
+          "Hands",
+          "Eyes",
+          "Nose"
+        ],
+        "a": 2
+      },
+      {
+        "q": "We kick with our…",
+        "opts": [
+          "Feet",
+          "Mouth",
+          "Neck",
+          "Back"
+        ],
+        "a": 0
+      }
+    ]
+  },
+  {
+    "topic": "Family",
+    "questions": [
+      {
+        "q": "Mom’s mom is your…",
+        "opts": [
+          "Aunt",
+          "Sister",
+          "Grandmother",
+          "Cousin"
+        ],
+        "a": 2
+      },
+      {
+        "q": "Dad’s dad is your…",
+        "opts": [
+          "Uncle",
+          "Grandfather",
+          "Brother",
+          "Friend"
+        ],
+        "a": 1
+      },
+      {
+        "q": "Your mother’s son is your…",
+        "opts": [
+          "Uncle",
+          "Brother",
+          "Cousin",
+          "Nephew"
+        ],
+        "a": 1
+      },
+      {
+        "q": "Your father’s daughter is your…",
+        "opts": [
+          "Sister",
+          "Aunt",
+          "Niece",
+          "Cousin"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Your uncle’s child is your…",
+        "opts": [
+          "Cousin",
+          "Sister",
+          "Grandma",
+          "Brother"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Your mom and dad are your…",
+        "opts": [
+          "Parents",
+          "Friends",
+          "Teachers",
+          "Neighbors"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Your sister’s son is your…",
+        "opts": [
+          "Nephew",
+          "Uncle",
+          "Cousin",
+          "Grandpa"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Your brother’s daughter is your…",
+        "opts": [
+          "Niece",
+          "Aunt",
+          "Sister",
+          "Cousin"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Your dad’s brother is your…",
+        "opts": [
+          "Uncle",
+          "Nephew",
+          "Cousin",
+          "Grandpa"
+        ],
+        "a": 0
+      },
+      {
+        "q": "A family lives in a…",
+        "opts": [
+          "Nest",
+          "House",
+          "Cave",
+          "Car"
+        ],
+        "a": 1
+      }
+    ]
+  },
+  {
+    "topic": "Food",
+    "questions": [
+      {
+        "q": "Which is a vegetable?",
+        "opts": [
+          "Carrot",
+          "Cake",
+          "Ice cream",
+          "Juice"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Breakfast food?",
+        "opts": [
+          "Cereal",
+          "Soda",
+          "Candy",
+          "Chips"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Which is dairy?",
+        "opts": [
+          "Milk",
+          "Bread",
+          "Rice",
+          "Apple"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Sweet frozen treat?",
+        "opts": [
+          "Soup",
+          "Ice cream",
+          "Toast",
+          "Pasta"
+        ],
+        "a": 1
+      },
+      {
+        "q": "Which is protein?",
+        "opts": [
+          "Chicken",
+          "Cake",
+          "Lollipop",
+          "Cookie"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Fruit salad is made of…",
+        "opts": [
+          "Fruits",
+          "Meat",
+          "Cheese",
+          "Rice"
+        ],
+        "a": 0
+      },
+      {
+        "q": "We drink from a…",
+        "opts": [
+          "Cup",
+          "Fork",
+          "Plate",
+          "Spoon"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Pasta is also called…",
+        "opts": [
+          "Noodles",
+          "Crisps",
+          "Cereal",
+          "Oats"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Healthy snack?",
+        "opts": [
+          "Apple",
+          "Candy",
+          "Soda",
+          "Chips"
+        ],
+        "a": 0
+      },
+      {
+        "q": "We bake in an…",
+        "opts": [
+          "Oven",
+          "Fridge",
+          "Sink",
+          "Cupboard"
+        ],
+        "a": 0
+      }
+    ]
+  },
+  {
+    "topic": "Clothes",
+    "questions": [
+      {
+        "q": "We wear on feet?",
+        "opts": [
+          "Shoes",
+          "Hat",
+          "Gloves",
+          "Scarf"
+        ],
+        "a": 0
+      },
+      {
+        "q": "On a rainy day we wear…",
+        "opts": [
+          "Raincoat",
+          "Swimsuit",
+          "Shorts",
+          "Pajamas"
+        ],
+        "a": 0
+      },
+      {
+        "q": "On a sunny beach we wear…",
+        "opts": [
+          "Swimsuit",
+          "Winter coat",
+          "Boots",
+          "Gloves"
+        ],
+        "a": 0
+      },
+      {
+        "q": "On hands we wear…",
+        "opts": [
+          "Gloves",
+          "Socks",
+          "Hat",
+          "Belt"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Around neck we wear…",
+        "opts": [
+          "Scarf",
+          "Jeans",
+          "Skirt",
+          "Boots"
+        ],
+        "a": 0
+      },
+      {
+        "q": "On head we wear…",
+        "opts": [
+          "Hat",
+          "Socks",
+          "Gloves",
+          "Shoes"
+        ],
+        "a": 0
+      },
+      {
+        "q": "For bed we wear…",
+        "opts": [
+          "Pajamas",
+          "Tuxedo",
+          "Raincoat",
+          "Uniform"
+        ],
+        "a": 0
+      },
+      {
+        "q": "On legs we wear…",
+        "opts": [
+          "Jeans",
+          "Shirt",
+          "Tie",
+          "Cap"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Feet warmers are…",
+        "opts": [
+          "Socks",
+          "Glasses",
+          "Earrings",
+          "Bracelet"
+        ],
+        "a": 0
+      },
+      {
+        "q": "To keep dry we use…",
+        "opts": [
+          "Umbrella",
+          "Skirt",
+          "Shirt",
+          "Belt"
+        ],
+        "a": 0
+      }
+    ]
+  },
+  {
+    "topic": "Toys",
+    "questions": [
+      {
+        "q": "Which is a building toy?",
+        "opts": [
+          "Blocks",
+          "Spoon",
+          "Book",
+          "Socks"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Which is a stuffed toy?",
+        "opts": [
+          "Teddy bear",
+          "Laptop",
+          "Plate",
+          "Phone"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Which rolls on wheels?",
+        "opts": [
+          "Toy car",
+          "Balloon",
+          "Crayon",
+          "Cup"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Which can bounce?",
+        "opts": [
+          "Ball",
+          "Rock",
+          "Feather",
+          "Pillow"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Which is a puzzle toy?",
+        "opts": [
+          "Jigsaw",
+          "Shoes",
+          "Fork",
+          "Paper"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Which spins?",
+        "opts": [
+          "Top",
+          "Brush",
+          "Paper",
+          "Spoon"
+        ],
+        "a": 0
+      },
+      {
+        "q": "You draw with…",
+        "opts": [
+          "Crayons",
+          "Fork",
+          "Soap",
+          "Socks"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Which flies with string?",
+        "opts": [
+          "Kite",
+          "Car",
+          "Boat",
+          "Train"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Which makes music?",
+        "opts": [
+          "Toy piano",
+          "Shoe",
+          "Plate",
+          "Chair"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Which you hug?",
+        "opts": [
+          "Teddy",
+          "Broom",
+          "Cup",
+          "Box"
+        ],
+        "a": 0
+      }
+    ]
+  },
+  {
+    "topic": "Music",
+    "questions": [
+      {
+        "q": "We clap to make…",
+        "opts": [
+          "Silence",
+          "Music",
+          "Rain",
+          "Food"
+        ],
+        "a": 1
+      },
+      {
+        "q": "You strum a…",
+        "opts": [
+          "Guitar",
+          "Drum",
+          "Flute",
+          "Piano"
+        ],
+        "a": 0
+      },
+      {
+        "q": "You blow a…",
+        "opts": [
+          "Flute",
+          "Drum",
+          "Piano",
+          "Guitar"
+        ],
+        "a": 0
+      },
+      {
+        "q": "You hit a…",
+        "opts": [
+          "Drum",
+          "Book",
+          "Glass",
+          "Spoon"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Black & white keys are on…",
+        "opts": [
+          "Piano",
+          "Violin",
+          "Harp",
+          "Sax"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Fast music is called…",
+        "opts": [
+          "Slow",
+          "Loud",
+          "Upbeat",
+          "Quiet"
+        ],
+        "a": 2
+      },
+      {
+        "q": "Soft volume is…",
+        "opts": [
+          "Quiet",
+          "Loud",
+          "Noisy",
+          "Shout"
+        ],
+        "a": 0
+      },
+      {
+        "q": "We sing with our…",
+        "opts": [
+          "Voice",
+          "Feet",
+          "Hands",
+          "Ears"
+        ],
+        "a": 0
+      },
+      {
+        "q": "A group that sings is a…",
+        "opts": [
+          "Choir",
+          "Team",
+          "Class",
+          "Pack"
+        ],
+        "a": 0
+      },
+      {
+        "q": "We listen with our…",
+        "opts": [
+          "Ears",
+          "Eyes",
+          "Nose",
+          "Hands"
+        ],
+        "a": 0
+      }
+    ]
+  },
+  {
+    "topic": "Space",
+    "questions": [
+      {
+        "q": "We live on planet…",
+        "opts": [
+          "Mars",
+          "Earth",
+          "Venus",
+          "Sun"
+        ],
+        "a": 1
+      },
+      {
+        "q": "The Sun is a…",
+        "opts": [
+          "Planet",
+          "Star",
+          "Moon",
+          "Rock"
+        ],
+        "a": 1
+      },
+      {
+        "q": "We visit space in a…",
+        "opts": [
+          "Rocket",
+          "Boat",
+          "Car",
+          "Bike"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Night lights in sky are…",
+        "opts": [
+          "Stars",
+          "Bugs",
+          "Snow",
+          "Kites"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Earth’s moon is called…",
+        "opts": [
+          "Luna",
+          "Io",
+          "Moon",
+          "Phobos"
+        ],
+        "a": 2
+      },
+      {
+        "q": "Which is red planet?",
+        "opts": [
+          "Mars",
+          "Jupiter",
+          "Saturn",
+          "Mercury"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Rings belong to…",
+        "opts": [
+          "Saturn",
+          "Venus",
+          "Mars",
+          "Earth"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Astronaut wears a…",
+        "opts": [
+          "Spacesuit",
+          "Swimsuit",
+          "Raincoat",
+          "Pajamas"
+        ],
+        "a": 0
+      },
+      {
+        "q": "We look at space with…",
+        "opts": [
+          "Telescope",
+          "Microscope",
+          "Binoculars",
+          "Sunglasses"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Day comes from the…",
+        "opts": [
+          "Sun",
+          "Moon",
+          "Stars",
+          "Clouds"
+        ],
+        "a": 0
+      }
+    ]
+  },
+  {
+    "topic": "Ocean Life",
+    "questions": [
+      {
+        "q": "Which lives in the ocean?",
+        "opts": [
+          "Shark",
+          "Camel",
+          "Gorilla",
+          "Eagle"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Which has eight arms?",
+        "opts": [
+          "Octopus",
+          "Cat",
+          "Cow",
+          "Dog"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Which is a mammal?",
+        "opts": [
+          "Dolphin",
+          "Trout",
+          "Crab",
+          "Jellyfish"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Which has a shell?",
+        "opts": [
+          "Turtle",
+          "Lion",
+          "Horse",
+          "Goat"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Which makes pearls?",
+        "opts": [
+          "Oyster",
+          "Shark",
+          "Seal",
+          "Whale"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Which stings?",
+        "opts": [
+          "Jellyfish",
+          "Snail",
+          "Seahorse",
+          "Clownfish"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Which is very big?",
+        "opts": [
+          "Blue whale",
+          "Goldfish",
+          "Crab",
+          "Shrimp"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Which has claws?",
+        "opts": [
+          "Crab",
+          "Eel",
+          "Ray",
+          "Cod"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Which puffs up?",
+        "opts": [
+          "Pufferfish",
+          "Swordfish",
+          "Marlin",
+          "Stingray"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Which swims upright?",
+        "opts": [
+          "Seahorse",
+          "Seal",
+          "Shark",
+          "Tuna"
+        ],
+        "a": 0
+      }
+    ]
+  },
+  {
+    "topic": "Plants",
+    "questions": [
+      {
+        "q": "Plants make food by…",
+        "opts": [
+          "Photosynthesis",
+          "Breathing",
+          "Sleeping",
+          "Eating"
+        ],
+        "a": 0
+      },
+      {
+        "q": "We plant a…",
+        "opts": [
+          "Seed",
+          "Rock",
+          "Toy",
+          "Coin"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Trees have many…",
+        "opts": [
+          "Leaves",
+          "Fins",
+          "Wheels",
+          "Buttons"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Plant roots take…",
+        "opts": [
+          "Water",
+          "Air",
+          "Light",
+          "Noise"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Bees love…",
+        "opts": [
+          "Flowers",
+          "Shoes",
+          "Cars",
+          "Phones"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Cactus grows in a…",
+        "opts": [
+          "Desert",
+          "Ocean",
+          "Freezer",
+          "Cloud"
+        ],
+        "a": 0
+      },
+      {
+        "q": "We eat plant…",
+        "opts": [
+          "Fruits & Veggies",
+          "Hats",
+          "Stones",
+          "Bags"
+        ],
+        "a": 0
+      },
+      {
+        "q": "A very tall plant is a…",
+        "opts": [
+          "Tree",
+          "Shrub",
+          "Moss",
+          "Seed"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Plants need…",
+        "opts": [
+          "Sunlight",
+          "Chocolate",
+          "Paint",
+          "Sand"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Leaves are usually…",
+        "opts": [
+          "Green",
+          "Purple",
+          "Invisible",
+          "Metal"
+        ],
+        "a": 0
+      }
+    ]
+  },
+  {
+    "topic": "Community Helpers",
+    "questions": [
+      {
+        "q": "Who fights fires?",
+        "opts": [
+          "Firefighter",
+          "Chef",
+          "Pilot",
+          "Painter"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Who treats the sick?",
+        "opts": [
+          "Doctor",
+          "Farmer",
+          "Singer",
+          "Driver"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Who teaches kids?",
+        "opts": [
+          "Teacher",
+          "Engineer",
+          "Tailor",
+          "Dancer"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Who delivers letters?",
+        "opts": [
+          "Mail carrier",
+          "Artist",
+          "Baker",
+          "Actor"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Who grows food?",
+        "opts": [
+          "Farmer",
+          "Doctor",
+          "Police",
+          "Chef"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Who keeps us safe?",
+        "opts": [
+          "Police officer",
+          "Librarian",
+          "Gardener",
+          "Cook"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Who cooks in a restaurant?",
+        "opts": [
+          "Chef",
+          "Nurse",
+          "Pilot",
+          "Singer"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Who helps at the library?",
+        "opts": [
+          "Librarian",
+          "Doctor",
+          "Driver",
+          "Chef"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Who fixes pipes?",
+        "opts": [
+          "Plumber",
+          "Teacher",
+          "Artist",
+          "Pilot"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Who drives the bus?",
+        "opts": [
+          "Driver",
+          "Dentist",
+          "Painter",
+          "Tailor"
+        ],
+        "a": 0
+      }
+    ]
+  },
+  {
+    "topic": "Time",
+    "questions": [
+      {
+        "q": "How many hours in a day?",
+        "opts": [
+          "12",
+          "24",
+          "7",
+          "60"
+        ],
+        "a": 1
+      },
+      {
+        "q": "Morning comes before…",
+        "opts": [
+          "Afternoon",
+          "Night",
+          "Yesterday",
+          "Year"
+        ],
+        "a": 0
+      },
+      {
+        "q": "We tell time with a…",
+        "opts": [
+          "Clock",
+          "Phone",
+          "Book",
+          "Pen"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Seven days make a…",
+        "opts": [
+          "Month",
+          "Week",
+          "Year",
+          "Hour"
+        ],
+        "a": 1
+      },
+      {
+        "q": "When we sleep it is…",
+        "opts": [
+          "Night",
+          "Noon",
+          "Dawn",
+          "Afternoon"
+        ],
+        "a": 0
+      },
+      {
+        "q": "The first day of the week (many countries) is…",
+        "opts": [
+          "Sunday",
+          "Wednesday",
+          "Friday",
+          "Monday"
+        ],
+        "a": 0
+      },
+      {
+        "q": "12 months make a…",
+        "opts": [
+          "Year",
+          "Week",
+          "Day",
+          "Minute"
+        ],
+        "a": 0
+      },
+      {
+        "q": "We eat lunch at…",
+        "opts": [
+          "Afternoon",
+          "Midnight",
+          "Sunset",
+          "Dawn"
+        ],
+        "a": 0
+      },
+      {
+        "q": "A minute has…",
+        "opts": [
+          "60 seconds",
+          "24 hours",
+          "7 days",
+          "12 months"
+        ],
+        "a": 0
+      },
+      {
+        "q": "We wake up in the…",
+        "opts": [
+          "Morning",
+          "Night",
+          "Midnight",
+          "Evening"
+        ],
+        "a": 0
+      }
+    ]
+  },
+  {
+    "topic": "Emotions",
+    "questions": [
+      {
+        "q": "A big smile means…",
+        "opts": [
+          "Happy",
+          "Sad",
+          "Angry",
+          "Scared"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Tears often mean…",
+        "opts": [
+          "Happy",
+          "Sad",
+          "Excited",
+          "Proud"
+        ],
+        "a": 1
+      },
+      {
+        "q": "Red angry face means…",
+        "opts": [
+          "Angry",
+          "Sleepy",
+          "Calm",
+          "Hungry"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Shaking and hiding means…",
+        "opts": [
+          "Scared",
+          "Joyful",
+          "Bored",
+          "Proud"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Jumping up and down…",
+        "opts": [
+          "Excited",
+          "Tired",
+          "Sick",
+          "Calm"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Quiet and relaxed…",
+        "opts": [
+          "Calm",
+          "Angry",
+          "Silly",
+          "Wild"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Proud happens when…",
+        "opts": [
+          "We do well",
+          "We fall",
+          "We lose",
+          "We cry"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Surprised face is…",
+        "opts": [
+          "Wide eyes",
+          "Closed eyes",
+          "Sleep",
+          "Cry"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Silly face is…",
+        "opts": [
+          "Tongue out",
+          "Cry",
+          "Yawn",
+          "Shout"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Tired means we need…",
+        "opts": [
+          "Sleep",
+          "Candy",
+          "TV",
+          "Noise"
+        ],
+        "a": 0
+      }
+    ]
+  },
+  {
+    "topic": "Safety",
+    "questions": [
+      {
+        "q": "We cross the road at…",
+        "opts": [
+          "Crosswalk",
+          "Middle",
+          "Anywhere",
+          "River"
+        ],
+        "a": 0
+      },
+      {
+        "q": "We wear a helmet on a…",
+        "opts": [
+          "Bike",
+          "Couch",
+          "Bed",
+          "Carpet"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Hot stove is…",
+        "opts": [
+          "Dangerous",
+          "Toy",
+          "Cold",
+          "Safe"
+        ],
+        "a": 0
+      },
+      {
+        "q": "We call 911 for…",
+        "opts": [
+          "Emergency",
+          "Games",
+          "Homework",
+          "Picnic"
+        ],
+        "a": 0
+      },
+      {
+        "q": "We look left and right before…",
+        "opts": [
+          "Crossing",
+          "Sleeping",
+          "Drawing",
+          "Eating"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Seat belts are for…",
+        "opts": [
+          "Cars",
+          "Shoes",
+          "Hats",
+          "Beds"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Strangers: we keep…",
+        "opts": [
+          "Safe distance",
+          "Secrets",
+          "Candy",
+          "Follow"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Don’t touch…",
+        "opts": [
+          "Sharp knives",
+          "Pencils",
+          "Books",
+          "Toys"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Tell an adult if…",
+        "opts": [
+          "You’re hurt",
+          "You’re fine",
+          "You’re bored",
+          "You’re playing"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Swim with a…",
+        "opts": [
+          "Grown‑up",
+          "Cat",
+          "Toy",
+          "Radio"
+        ],
+        "a": 0
+      }
+    ]
+  },
+  {
+    "topic": "Sports",
+    "questions": [
+      {
+        "q": "Kick the ball in…",
+        "opts": [
+          "Soccer",
+          "Tennis",
+          "Basketball",
+          "Baseball"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Use a racket in…",
+        "opts": [
+          "Tennis",
+          "Soccer",
+          "Swimming",
+          "Hockey"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Swim in a…",
+        "opts": [
+          "Pool",
+          "Court",
+          "Ring",
+          "Track"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Shoot hoops in…",
+        "opts": [
+          "Basketball",
+          "Cricket",
+          "Rugby",
+          "Chess"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Hit a home run in…",
+        "opts": [
+          "Baseball",
+          "Soccer",
+          "Tennis",
+          "Golf"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Skate on…",
+        "opts": [
+          "Ice",
+          "Sand",
+          "Grass",
+          "Clouds"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Wear a helmet in…",
+        "opts": [
+          "Cycling",
+          "Chess",
+          "Swimming",
+          "Yoga"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Run around the…",
+        "opts": [
+          "Track",
+          "Pool",
+          "Court",
+          "Ring"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Shoot a goal with a stick in…",
+        "opts": [
+          "Hockey",
+          "Golf",
+          "Tennis",
+          "Racing"
+        ],
+        "a": 0
+      },
+      {
+        "q": "Stretching before play helps…",
+        "opts": [
+          "Prevent injuries",
+          "Make rain",
+          "Cook food",
+          "Do homework"
+        ],
+        "a": 0
+      }
+    ]
+  }
+]
