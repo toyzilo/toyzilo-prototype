@@ -1,93 +1,67 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
-<title>ToyZilo • Rewards Prototype</title>
-<link rel="stylesheet" href="styles.css"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ToyZilo Prototype</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div id="app">
-  <div class="phone-frame">
-    <section id="splash" class="screen active">
-      <div class="center">
-        <img src="assets/logo.png" alt="ToyZilo logo" class="logo"/>
-        <div class="tagline">Raising Curiosity, Creativity & Confidence</div>
-        <div class="tap-hint bounce">Tap to Start ▶</div>
-      </div>
-      <div id="floaters"></div>
-    </section>
-    <section id="home" class="screen">
-      <header class="top">
-        <img src="assets/logo.png" alt="ToyZilo logo" class="brand-mini"/>
-        <div class="title">Pick a Topic</div>
-        <button id="rewardsBtn" class="btn pill">🏅 Rewards</button>
-      </header>
-      <div class="stats-bar">
-        <div>⭐ <span id="coinsBank">0</span></div>
-        <div>🔥 Streak: <span id="streakCount">0</span></div>
-        <div>🎯 Level: <span id="levelNo">1</span></div>
-      </div>
-      <div id="topic-grid" class="grid"></div>
-    </section>
-    <section id="quiz" class="screen">
-      <header class="quiz-top">
-        <button id="back" class="btn">←</button>
-        <div id="topic-title" class="topic-title">Topic</div>
-        <div class="progress"><div id="bar"></div></div>
-      </header>
-      <canvas id="confetti"></canvas>
-      <div class="q-card rise">
-        <div id="qtext" class="qtext">Question</div>
-        <div id="opts" class="opts"></div>
-      </div>
-      <footer class="quiz-bottom">
-        <div id="feedback" class="feedback"></div>
-        <button id="next" class="btn primary" disabled>Next ▶</button>
-      </footer>
-    </section>
-    <section id="result" class="screen">
-      <div class="center">
-        <h1 id="scoreline">Great!</h1>
-        <div id="earned" class="earned"></div>
-        <div id="badgeUnlocks" class="badges"></div>
-        <button id="again" class="btn primary">Back to Topics</button>
-      </div>
-    </section>
-    <section id="rewards" class="screen">
-      <header class="top">
-        <button id="reBack" class="btn">←</button>
-        <div class="title">Rewards Hub</div>
-      </header>
-      <div class="rewards-wrap">
-        <div class="card">
-          <h3>Daily Check-in</h3>
-          <p>Come back each day to grow your streak and earn coins!</p>
-          <div class="streak-line">
-            <div>🔥 <span id="streakStrong">0</span>-day</div>
-            <div class="ring"><div id="streakRing"></div></div>
-          </div>
-          <button id="claimDaily" class="btn primary">Claim Today ⭐ +10</button>
-          <div id="weeklyChest" class="chest disabled">🎁 Weekly Chest (7-day) — Locked</div>
-        </div>
-        <div class="card">
-          <h3>Badges</h3>
-          <div id="badgeGrid" class="badge-grid"></div>
-        </div>
-        <div class="card">
-          <h3>Your Stats</h3>
-          <ul class="stats">
-            <li>Total Correct: <span id="statCorrect">0</span></li>
-            <li>Quizzes Finished: <span id="statFinished">0</span></li>
-            <li>Unique Topics Completed: <span id="statTopics">0</span></li>
-            <li>Coins Bank: ⭐ <span id="statCoins">0</span></li>
-          </ul>
-        </div>
-      </div>
-    </section>
-    <div id="toast" class="toast"></div>
-  </div>
-</div>
-<script src="script.js"></script>
+  <header>
+    <img src="logo.png" alt="ToyZilo Logo" class="logo">
+    <h1>ToyZilo Learning World</h1>
+  </header>
+
+  <main id="menu">
+    <h2>Main Categories</h2>
+    <div class="category-grid">
+      <button class="category" onclick="openCategory('brain-quiz')">🧠 Brain Quiz</button>
+      <button class="category">🧩 Puzzle</button>
+      <button class="category">🎮 Fun Game</button>
+      <button class="category">🔠 Letters World</button>
+      <button class="category">🔢 Number Arena</button>
+      <button class="category">🎨 Colour Magic</button>
+      <button class="category">📖 Story Time</button>
+      <button class="category">🎵 Music</button>
+      <button class="category">🧑‍🤝‍🧑 Memory Game</button>
+    </div>
+  </main>
+
+  <!-- Brain Quiz Subcategories -->
+  <section id="brain-quiz" class="hidden">
+    <h2>🧠 Brain Quiz</h2>
+    <div class="subcategory-grid">
+      <button onclick="openQuiz('Animals')">🐒 Animals</button>
+      <button onclick="openQuiz('Colors')">🎨 Colors</button>
+      <button onclick="openQuiz('Numbers')">🔢 Numbers</button>
+      <button onclick="openQuiz('Fruits')">🍎 Fruits</button>
+      <button onclick="openQuiz('Weather')">🌦 Weather</button>
+      <button onclick="openQuiz('Transportation')">🚗 Transportation</button>
+      <button onclick="openQuiz('Body Parts')">👂 Body Parts</button>
+      <button onclick="openQuiz('Family')">👨‍👩‍👧 Family</button>
+      <button onclick="openQuiz('Food')">🍔 Food</button>
+      <button onclick="openQuiz('Clothes')">👕 Clothes</button>
+      <button onclick="openQuiz('Toys')">🧸 Toys</button>
+      <button onclick="openQuiz('Music')">🥁 Music</button>
+      <button onclick="openQuiz('Space')">🚀 Space</button>
+      <button onclick="openQuiz('Ocean Life')">🐠 Ocean Life</button>
+      <button onclick="openQuiz('Plants')">🌱 Plants</button>
+      <button onclick="openQuiz('Community Helpers')">👩‍⚕️ Community Helpers</button>
+      <button onclick="openQuiz('Time')">⏰ Time</button>
+      <button onclick="openQuiz('Emotions')">😊 Emotions</button>
+      <button onclick="openQuiz('Safety')">🦺 Safety</button>
+      <button onclick="openQuiz('Sports')">⚽ Sports</button>
+    </div>
+    <button class="back-btn" onclick="goBack()">⬅ Back</button>
+  </section>
+
+  <!-- Quiz Section -->
+  <section id="quiz-section" class="hidden">
+    <h2 id="quiz-title"></h2>
+    <div id="quiz-container"></div>
+    <button class="back-btn" onclick="goBackToBrainQuiz()">⬅ Back</button>
+  </section>
+
+  <script src="script.js"></script>
 </body>
 </html>
